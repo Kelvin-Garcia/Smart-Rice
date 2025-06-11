@@ -67,12 +67,12 @@
                     <strong>Más Ganancia. Más Control. Más Futuro.</strong>
                 </p>
                 <div class="hero-buttons">
-                    <button class="btn-primary">
+                    <a href="https://kelvin-garcia.github.io/Smart-Rice-App/" class="btn-primary">
                         Comenzar
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
-                    </button>
+                    </a>
                     <button class="btn-secondary">
                         Saber Más
                     </button>
@@ -221,18 +221,125 @@
 
     <!-- App Design Section -->
     <section class="app-design-section">
-        <div class="app-design-container">
-            <div class="section-tag">Nuestra App</div>
-            <h2 class="section-title">Diseño de Nuestra App</h2>
-            <p class="app-design-text">
-                Nuestra aplicación móvil te da el control total de tu cosecha, eliminando intermediarios y maximizando tus ganancias desde tu teléfono.
-            </p>
-            <div class="app-design-image">
-                <!-- Reemplaza esta imagen por una captura real de la app -->
-                <img src="img/Interfaces.png" alt="Vista previa de la app">
+    <div class="app-design-container">
+        <div class="section-tag">Nuestra App</div>
+        <h2 class="section-title">Diseño de Nuestra App</h2>
+        <p class="app-design-text">
+            Descubre cómo cada pantalla de Smart Rice te ayuda a controlar tu cosecha, ventas y pagos de forma simple y directa.
+        </p>
+
+        <!-- Bloque 1: index y registro-rol -->
+        <div class="app-row app-row-left animate-fadein">
+            <div class="app-images">
+                <img src="img/index.png" alt="Pantalla de inicio" class="app-img">
+                <img src="img/registro-rol.png" alt="Registro de rol" class="app-img">
+            </div>
+            <div class="app-desc">
+                <h3>Pantalla de Inicio y Selección de Rol</h3>
+                <p>
+                    Desde la pantalla principal puedes acceder rápidamente a todas las funciones. Elige tu rol (agricultor o molino) para personalizar tu experiencia y acceder a las herramientas específicas para tu trabajo.
+                </p>
             </div>
         </div>
-    </section>
+
+        <!-- Bloque 2: registro-agricultor y registro-molino -->
+        <div class="app-row app-row-right animate-fadein">
+            <div class="app-desc">
+                <h3>Registro de Agricultor y Molino</h3>
+                <p>
+                    Regístrate fácilmente como agricultor o molino. El proceso es rápido, seguro y te permite empezar a operar en minutos, asegurando que solo usuarios verificados accedan a la plataforma.
+                </p>
+            </div>
+            <div class="app-images">
+                <img src="img/registro-agricultor.png" alt="Registro agricultor" class="app-img">
+                <img src="img/registro-molino.png" alt="Registro molino" class="app-img">
+            </div>
+        </div>
+
+        <!-- Bloque 3: dashboard-molino y dashboard-agricultor -->
+        <div class="app-row app-row-left animate-fadein">
+            <div class="app-images">
+                <img src="img/dashboard-molino.png" alt="Dashboard molino" class="app-img">
+                <img src="img/dashboard-agricultor.png" alt="Dashboard agricultor" class="app-img">
+            </div>
+            <div class="app-desc">
+                <h3>Dashboard Molino y Agricultor</h3>
+                <p>
+                    Visualiza toda la información relevante de tu actividad. El dashboard muestra métricas, campañas activas y accesos rápidos a las funciones principales según tu rol.
+                </p>
+            </div>
+        </div>
+
+        <!-- Bloque 4: crear campaña (solo una imagen) -->
+        <div class="app-row app-row-right animate-fadein">
+            <div class="app-desc">
+                <h3>Crear Campaña</h3>
+                <p>
+                    Los molinos pueden crear campañas para recibir cosechas, definir condiciones y fechas. Todo el proceso es intuitivo y rápido.
+                </p>
+            </div>
+            <div class="app-images">
+                <img src="img/crear-campaña.png" alt="Crear campaña" class="app-img">
+            </div>
+        </div>
+
+        <!-- Bloque 5: caseta y analisis -->
+        <div class="app-row app-row-left animate-fadein">
+            <div class="app-images">
+                <img src="img/caseta.png" alt="Caseta" class="app-img">
+                <img src="img/analisis.png" alt="Análisis" class="app-img">
+            </div>
+            <div class="app-desc">
+                <h3>Caseta y Análisis</h3>
+                <p>
+                    Gestiona la recepción de arroz en caseta y consulta los análisis de calidad realizados a cada lote, asegurando transparencia y trazabilidad.
+                </p>
+            </div>
+        </div>
+
+        <!-- Bloque 6: pagos-molino y pagos-agricultor -->
+        <div class="app-row app-row-right animate-fadein">
+            <div class="app-desc">
+                <h3>Pagos Molino y Agricultor</h3>
+                <p>
+                    Consulta el estado de los pagos tanto para molinos como para agricultores. Visualiza historial, montos y fechas de manera clara y ordenada.
+                </p>
+            </div>
+            <div class="app-images">
+                <img src="img/pagos-molino.png" alt="Pagos molino" class="app-img">
+                <img src="img/pagos-agricultor.png" alt="Pagos agricultor" class="app-img">
+            </div>
+        </div>
+
+        <!-- Bloque 7: reporte-molino y reporte-agricultor -->
+        <div class="app-row app-row-left animate-fadein">
+            <div class="app-images">
+                <img src="img/reporte-molino.png" alt="Reporte molino" class="app-img">
+                <img src="img/reporte-agricultor.png" alt="Reporte agricultor" class="app-img">
+            </div>
+            <div class="app-desc">
+                <h3>Reportes Molino y Agricultor</h3>
+                <p>
+                    Genera y descarga reportes detallados de tus operaciones, ventas y entregas. Toda la información que necesitas para tu gestión.
+                </p>
+            </div>
+        </div>
+
+        <!-- Bloque 8: resultados-molino y resultados-agricultor -->
+        <div class="app-row app-row-right animate-fadein">
+            <div class="app-desc">
+                <h3>Resultados Molino y Agricultor</h3>
+                <p>
+                    Consulta los resultados finales de cada campaña, con indicadores clave y comparativas para mejorar tu producción y ventas.
+                </p>
+            </div>
+            <div class="app-images">
+                <img src="img/resultados-molino.png" alt="Resultados molino" class="app-img">
+                <img src="img/resultados-agricultor.png" alt="Resultados agricultor" class="app-img">
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Video Section -->
     <section class="video-section">
